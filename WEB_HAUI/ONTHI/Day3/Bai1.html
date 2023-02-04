@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="Bai1.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="banner">
+            <img src="data:image/jpeg;base64,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" alt="Ảnh xưởng sản xuất gỗ Hường Ngân">
+        </div>
+        <div id="body">
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Nội thất phòng khách</a></li>
+                    <li><a href="#">Nội thất phòng ngủ</a></li>
+                    <li class="sub-menu">
+                        <a href="#">Nội thất phòng ăn</a>
+                        <ul>
+                            <li><a href="#">Tủ bếp gỗ tự nhiên</a></li>
+                            <li><a href="#">Tủ bếp gỗ công nghiệp</a></li>
+                            <li><a href="#">Bàn ghế ăn</a></li>
+                            <li><a href="#">Thiết bị nhà bếp</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Nội thất phòng trẻ em</a></li>
+                    <li><a href="#">Nội thất phòng làm việc</a></li>
+                    <li><a href="#">Thủ công mỹ nghệ</a></li>
+                    <li><a href="#">Tư vấn thiết kế</a></li>
+                    <li><a href="#">Nội thất nhà tắm</a></li>
+                    <li><a href="#">Nội thất bể bơi</a></li>
+                    <li><a href="#">Nội thất phòng học</a></li>
+                    <li><a href="#">Nội thất phòng nghỉ</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <div id="left">
+                    <div class="tren nen">
+                        <h2>Danh sách đồ nội thất</h2>
+                        <div class="input">
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="duoi">
+                        <div class="item">
+                            <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg"
+                                alt="Image">
+                            <h3>
+                                Giường gỗ chất lượng cao, gỗ tự nhiên
+                            </h3>
+                            <p>
+                                <span class="nen">800 USD</span>
+                                <del class="nen">1000 USD</del>
+                            </p>
+                            <p>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Đặt mua
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Giỏ hàng
+                                </button>
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg"
+                                alt="Image">
+                            <h3>
+                                Giường gỗ chất lượng cao, gỗ tự nhiên
+                            </h3>
+                            <p>
+                                <span class="nen">800 USD</span>
+                                <del class="nen">1000 USD</del>
+                            </p>
+                            <p>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Đặt mua
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Giỏ hàng
+                                </button>
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg"
+                                alt="Image">
+                            <h3>
+                                Giường gỗ chất lượng cao, gỗ tự nhiên
+                            </h3>
+                            <p>
+                                <span class="nen">800 USD</span>
+                                <del class="nen">1000 USD</del>
+                            </p>
+                            <p>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Đặt mua
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Giỏ hàng
+                                </button>
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg"
+                                alt="Image">
+                            <h3>
+                                Giường gỗ chất lượng cao, gỗ tự nhiên
+                            </h3>
+                            <p>
+                                <span class="nen">800 USD</span>
+                                <del class="nen">1000 USD</del>
+                            </p>
+                            <p>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Đặt mua
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Giỏ hàng
+                                </button>
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg"
+                                alt="Image">
+                            <h3>
+                                Giường gỗ chất lượng cao, gỗ tự nhiên
+                            </h3>
+                            <p>
+                                <span class="nen">800 USD</span>
+                                <del class="nen">1000 USD</del>
+                            </p>
+                            <p>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Đặt mua
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Giỏ hàng
+                                </button>
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg"
+                                alt="Image">
+                            <h3>
+                                Giường gỗ chất lượng cao, gỗ tự nhiên
+                            </h3>
+                            <p>
+                                <span class="nen">800 USD</span>
+                                <del class="nen">1000 USD</del>
+                            </p>
+                            <p>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Đặt mua
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                    Giỏ hàng
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="right">
+                    <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg" alt="Imgage">
+                    <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg" alt="Imgage">
+                    <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg" alt="Imgage">
+                    <img src="https://noithatsondong.com/wp-content/uploads/2022/10/giuong-huong-da-18m-GDH005-6-500x375.jpg" alt="Imgage">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

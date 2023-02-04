@@ -1,0 +1,87 @@
+/*-----------reset-----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.42857143;
+}
+h1, h2, h3, h4, h5, h6, p, a, strong, div {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #337ab7;
+}
+p {
+    margin: 0 0 10px;
+    word-wrap: break-word;
+    display: block;
+}
+div{
+    display: block;
+}
+h3{
+    font-size: 24px;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+.pad30-50{
+    padding: 30px 0 50px;
+}
+.text--center{
+    display: block;
+    text-align: center;
+}
+.head--title{
+    font-size: 40px;
+    margin: 20px 0 50px;
+    font-weight: 100;
+    word-wrap: break-word;
+}
+.container1{
+    width: 77.02vw;
+    margin: 0 auto !important;
+    padding: 0 15px;
+    display: block;
+}
+.disfex{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.disfex1{
+    display: flex;
+}
+.disfex2{
+    display: flex;
+}
+.width__flex--item
+{
+    width: 33.333%;
+    padding: 0 15px;
+}
+.font16{
+    font-size: 16px;
+}
+.pad15{
+    padding: 0 15px;
+}
+.body--tour,.body--hot,.body--why,
+.body--feedback,.body--blog,.body--contact,.body--staff{
+    max-width: 100vw;
+    overflow: auto;
+}
+.body--tour::-webkit-scrollbar,.body--hot::-webkit-scrollbar,
+.body--why::-webkit-scrollbar,.body--feedback::-webkit-scrollbar,
+.body--blog::-webkit-scrollbar,.body--contact::-webkit-scrollbar,
+.body--staff::-webkit-scrollbar{
+    display: none;
+}

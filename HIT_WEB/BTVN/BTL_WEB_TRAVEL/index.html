@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL AGENCY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="travel">
+        <div id="travel__head" class="hidden--center">
+            <div>
+                <div id="travel__subHead">
+                    <div class="head__logo">
+                        <a href="#" class="head__logo--link"><img
+                                src="https://etravel.exdomain.net/image/catalog/logo/logo.png" alt="Logo Travel agency"
+                                class="head__logo--img"></a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">TRANG CHỦ</a></li>
+                            <li><a href="VE_ETRAVEL_TOURS.html">VỀ ETRAVEL TOURS</a></li>
+                            <li><a href="">TOURS CHÂU Á</a></li>
+                            <li><a href="">TOURS CHÂU ÂU</a></li>
+                            <li><a href="">TOURS CHÂU MĨ</a></li>
+                            <li><a href="">CẨM NANG DU LỊCH</a></li>
+                        </ul>
+                    </div>
+                    <div class="head__holine">
+                        <div class="holine__item--icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="holine__item--text">
+                            <span>HOTLINE</span> <br>
+                            <a href="holine.html">0123 456 789</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="travel__body">
+            <div id="body--img">
+                <a href="#"><img id="slide1"
+                        src="https://etravel.exdomain.net/image/cache/catalog/slider/slider_2-1347x518.jpg"
+                        alt="Image"></a>
+                <div class="chevron">
+                    <div class=" arrow arrow--left" onclick="back('slide1','box',img)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class=" arrow arrow--right" onclick="next('slide1','box',img)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="box" onclick="press('slide1','box','0',img)"></div>
+                    <div class="box" onclick="press('slide1','box','1',img)"></div>
+                </div>
+            </div>
+            <div id="body--tour" class="hidden--center">
+                <div class="width1170 pad30-50">
+                    <h3 class="text--center head--title" style="color: #333333;">Dịch vụ tốt nhất của ETravel Tours</h3>
+                    <div class="tour--container">
+                        <div class="tour--item">
+                            <a href="">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/categories/home-cis01-600x400.jpg"
+                                    alt="Tour Châu Âu">
+                            </a>
+                            <a href="" class="text--center">Tour Châu Âu</a>
+                        </div>
+                        <div class="tour--item">
+                            <a href="">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/categories/home-cis02-600x400.jpg"
+                                    alt="Tour Châu Á">
+                            </a>
+                            <a href="" class="text--center">Tour Châu Á</a>
+                        </div>
+                        <div class="tour--item">
+                            <a href="">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/categories/home-cis03-600x400.jpg"
+                                    alt="Tour Châu Mỹ">
+                            </a>
+                            <a href="" class="text--center">Tour Châu Mỹ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="body--hot" class="hidden--center">
+                <div class="width1170">
+                    <h3 class="text--center head--title" style="color:#ffffff">
+                        Tour du lịch Châu Âu khuyến mãi - hot
+                    </h3>
+                    <div class="list--tour">
+                        <div id="list--tour1">
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-phap-y-thuy-si-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Du lịch Châu Âu (Ý - Thụy Sĩ - Pháp)</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        NGÀY 1: TP.HCM - DOHA (QATAR)Quý khách tự túc tập trung tại lầu 2 - Ga đi quốc
+                                        tế sân bay Tân Sơn Nhất,…
+                                    </div>
+                                    <div class="item--price">
+                                        90,990,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-lien-tuyen-chau-my-kham-pha-dat-nuoc-cuba-co-kinh-220201740203PM-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Khám phá đất nước Cuba cổ kính</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Ngày 1: Hà Nội – New York. Sáng: Xe và HDV đón quý khách tại địa điểm đã hẹn
+                                        trước ra sân bay làm một…
+                                    </div>
+                                    <div class="item--price">
+                                        93,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/tour-usa-gia-re-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Tour du lịch bờ Tây nước Mỹ 8 ngày từ Hà Nội 2019</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Ngày 01: Hà Nội - San Francisco (Ăn Trưa MB, Tối) 09h30: Toàn đoàn tập kết tại
+                                        sân bay Nội Bài và làm…
+                                    </div>
+                                    <div class="item--price">
+                                        39,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/kaohug3-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Lạc Lối Ở Đài Bắc Trong 3 Ngày 2 Đêm - Bạn Muốn Thử Không?</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Đài Loan là địa điểm du lịch lý tưởng để bạn vừa có thể cảm nhận nhịp sống thành
+                                        phố năng động, hiện…
+                                    </div>
+                                    <div class="item--price">
+                                        5,600,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/duc2-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Tour Bắc Âu: Đan Mạch - Na Uy - Thụy Điển - Phần Lan 2019</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Ngày 01: Hà Nội - Copenhagen (Ăn Nghỉ MB) 18h30: Xe và Hướng dẫn viên đón Quý
+                                        khách tại điểm hẹn, khởi…
+                                    </div>
+                                    <div class="item--price">
+                                        79,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/ottawai-photo-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Du lịch Đông Tây Canada 10 ngày từ Hà Nội năm 2019</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Ngày 01: Hà Nội - Toronto (Ăn trên MB) 08h30:&nbsp;Tập trung tại điểm hẹn trong
+                                        thành phố Hà Nội để xe đón…
+                                    </div>
+                                    <div class="item--price">
+                                        83,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/1d_1514539618-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Tour Thái Lan - Bangkok - Pattaya Trong 5 Ngày 4 Đêm</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Lịch trình tours Ngày 1: HA NOI – BANGKOK (Ăn tối) Xe ô tô đón Quý khách tại
+                                        điểm hẹn Nhà…
+                                    </div>
+                                    <div class="item--price">
+                                        6,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/037930965069-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Du lịch Châu Âu (Ý - Thụy Sĩ - Pháp)</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        NGÀY 1: TP.HCM - DOHA (QATAR)Quý khách tự túc tập trung tại lầu 2 - Ga đi quốc
+                                        tế sân bay Tân Sơn Nhất,…
+                                    </div>
+                                    <div class="item--price">
+                                        90,990,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-phap-y-thuy-si-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Du lịch Châu Âu (Ý - Thụy Sĩ - Pháp)</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        NGÀY 1: TP.HCM - DOHA (QATAR)Quý khách tự túc tập trung tại lầu 2 - Ga đi quốc
+                                        tế sân bay Tân Sơn Nhất,…
+                                    </div>
+                                    <div class="item--price">
+                                        90,990,000đ
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/bruges-500x400.png"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Tour Scotland - Anh Quốc</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Ngày 1: Việt Nam – London. Tối: Xe đưa đón đoàn tại trung tâm thành phố và đưa
+                                        ra sân bay quốc tế làm…
+                                    </div>
+                                    <div class="item--price">
+                                        75,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-lien-tuyen-chau-my-kham-pha-dat-nuoc-cuba-co-kinh-220201740203PM-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Khám phá đất nước Cuba cổ kính</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Ngày 1: Hà Nội – New York. Sáng: Xe và HDV đón quý khách tại địa điểm đã hẹn
+                                        trước ra sân bay làm một…
+                                    </div>
+                                    <div class="item--price">
+                                        93,900,000đ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list--item">
+                                <div class="item--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/news/kaohug3-500x400.jpg"
+                                        alt="">
+                                    <div class="item--title">
+                                        <a href="">Xem</a>
+                                    </div>
+                                </div>
+                                <div class="item--text">
+                                    <a href="">
+                                        <span>Lạc Lối Ở Đài Bắc Trong 3 Ngày 2 Đêm - Bạn Muốn Thử Không?</span>
+                                    </a>
+                                    <div class="item--mota">
+                                        Đài Loan là địa điểm du lịch lý tưởng để bạn vừa có thể cảm nhận nhịp sống thành
+                                        phố năng động, hiện…
+                                    </div>
+                                    <div class="item--price">
+                                        5,600,000đ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point point1">
+                        <div class="box box1 box2" onclick="press1('box1','0',tour__item,'3')"></div>
+                        <div class="box box1" onclick="press1('box1','1',tour__item,'3')"></div>
+                        <div class="box box1" onclick="press1('box1','2',tour__item,'3')"></div>
+                        <div class="box box1" onclick="press1('box1','3',tour__item,'3')"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="body--why" class="hidden--center">
+                <div class="width1170 pad30-50">
+                    <h3 class="text--center head--title">
+                        Vì sao chọn tour Châu Âu - ETravel Tour
+                    </h3>
+                    <div class="tour--container">
+                        <div class="why--img">
+                            <img class="pad15"
+                                src="https://etravel.exdomain.net/image/cache/catalog/banner/why-feature-555x302.jpg"
+                                alt="why--img">
+                        </div>
+                        <div class="why--text pad15">
+                            <p class="font16">
+                                Tận tâm, am hiểu, chuyên nghiệp
+                                <br>
+                                Với sự tận tâm, am hiểu, chuyên nghiệp, quý khách luôn có được hành trình tốt nhất, phù
+                                hợp nhất, với chi phí tiết kiệm nhất
+                                <br>
+                                <br>
+                                Chứng nhận dịch vụ xuất sắc từ Tripadvisor
+                                <br>
+                                100% khách hàng hài lòng với dịch vụ của Dế Việt (AsiaLink ETravel) theo đánh giá từ
+                                website du lịch lớn nhất thế giới, Tripadvisor
+                                <br>
+                                <br>
+                                Tư vấn miễn phí và hỗ trợ 24/7
+                                <br>
+                                Sẵn sàng tư vẫn miễn phí và luôn song hành cùng khách hàng trong suốt thời gian thăm
+                                quan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="body--feedback" class="hidden--center">
+                <div class="width1170 pad30-50" style="padding-bottom: 60px;">
+                    <h3 class="text--center head--title" style="color:#ffffff">
+                        Phản hồi của khách hàng
+                    </h3>
+                    <div class="feed--item disfex" id="feed--item1">
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                “Mình đã từng sử dụng dịch vụ của vài công ty du lịch trong nước nhưng đến với ETravel
+                                Tours, mình đã có một trải nghiệm hoàn toàn mới nhờ sự thân thiện, nhiệt tình, vui vẻ
+                                của đội ngũ hướng dẫn viên, đem lại cho mình một chuyến đi tràn đầy niềm vui và ý nghĩa.
+                                Mình hiểu rõ hơn về đất nước và con người, phong tục tập quán của nơi mình đã đặt chân
+                                tới. Mình hy vọng trong thời gian tới sẽ có cơ hội đồng hành cùng Quý công ty khám phá
+                                những quốc gia khác.”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_3-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Hoàng Hùng</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                “Trong chuyến đi này, gia đình chúng tôi gặp sự cố tai nạn bất ngờ nhưng nhờ sự hỗ trợ
+                                và giúp đỡ nhanh chóng nhiệt tình của anh hướng dẫn viên nên mọi việc cũng đã thu xếp
+                                được ổn thỏa và giúp chúng tôi yên tâm hơn. Mong rằng công ty luôn duy trì được thế mạnh
+                                này để những hành khách như gia đình tôi luôn yên tâm lựa chọn Quý công ty là người bạn
+                                đồng hành trong những chuyến đi mới tiếp theo.”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_2-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Nguyễn Thị Mai</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                Tour Châu Âu linh hoạt thời gian và địa điểm, dễ dàng kết hợp tham quan du lịch và thăm
+                                thân nhân tại các nước Châu Âu. Mình đi 2 line red và green, rất vui và không mệt. Hướng
+                                dẫn viên tiếng Việt nhiệt tình, thân thiện. Lịch trình đi hầu hết các điểm du lịch nổi
+                                tiếng của từng nước. Chúc Cty ngày càng có thêm nhiều khách biết đến và sử dụng dịch vụ,
+                                mở rộng đc thị trường du lịch Châu Âu cho du khách Việt...
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_1-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Hoàng Hùng</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                “Trong chuyến đi này, gia đình chúng tôi gặp sự cố tai nạn bất ngờ nhưng nhờ sự hỗ trợ
+                                và giúp đỡ nhanh chóng nhiệt tình của anh hướng dẫn viên nên mọi việc cũng đã thu xếp
+                                được ổn thỏa và giúp chúng tôi yên tâm hơn. Mong rằng công ty luôn duy trì được thế mạnh
+                                này để những hành khách như gia đình tôi luôn yên tâm lựa chọn Quý công ty là người bạn
+                                đồng hành trong những chuyến đi mới tiếp theo.”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="data:image/jpeg;base64,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"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Nguyễn Mai</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                “Đây là lần đầu tiên tôi đi du lịch qua ETravel Tours, cảm nhận của tôi về toàn bộ
+                                chuyến đi rất tốt. Mặc dù đã đi Nha Trang nhiều lần nhưng tôi cảm thấy vẫn rất thích và
+                                muốn tiếp tục đi nữa để khám phá những điểm đến mới thông qua chương trình tham quan của
+                                Quý công ty. Ngoài ra Hướng dẫn viên cũng thăm hỏi đến từng thành viên trong đoàn về
+                                điều kiện ăn, ngủ….”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_2-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Nguyễn Ngọc Mai</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+
+                                “Hướng dẫn viên Đạt rất chu đáo, nhiệt tình tạo cảm giác thoải mái, tuyệt vời cho gia
+                                đình trong chuyến tham quan. Gia đình tôi cảm thấy rất vui và hài lòng khi có được một
+                                chuyến tham quan cùng Du Lịch Việt, cùng Hướng dẫn viên Đạt. Dịch vụ của ETravel Tours
+                                cũng tốt, tạo cảm giác vui và mát mẻ khi về Miền Tây. Gia đình tôi sẽ cùng đồng hành với
+                                Hướng dẫn viên Đạt và ETravel Tours trong thời gian sắp tới.”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_3-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Phùng Ngọc</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+
+                                “Hướng dẫn viên Đạt rất chu đáo, nhiệt tình tạo cảm giác thoải mái, tuyệt vời cho gia
+                                đình trong chuyến tham quan. Gia đình tôi cảm thấy rất vui và hài lòng khi có được một
+                                chuyến tham quan cùng Du Lịch Việt, cùng Hướng dẫn viên Đạt. Dịch vụ của ETravel Tours
+                                cũng tốt, tạo cảm giác vui và mát mẻ khi về Miền Tây. Gia đình tôi sẽ cùng đồng hành với
+                                Hướng dẫn viên Đạt và ETravel Tours trong thời gian sắp tới.”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="data:image/jpeg;base64,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"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Phùng Ngọc</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                “Trong chuyến đi này, gia đình chúng tôi gặp sự cố tai nạn bất ngờ nhưng nhờ sự hỗ trợ
+                                và giúp đỡ nhanh chóng nhiệt tình của anh hướng dẫn viên nên mọi việc cũng đã thu xếp
+                                được ổn thỏa và giúp chúng tôi yên tâm hơn. Mong rằng công ty luôn duy trì được thế mạnh
+                                này để những hành khách như gia đình tôi luôn yên tâm lựa chọn Quý công ty là người bạn
+                                đồng hành trong những chuyến đi mới tiếp theo.”
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_2-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Nguyễn Thị Mai</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed--item1">
+                            <div class="feed--top">
+                                Tour Châu Âu linh hoạt thời gian và địa điểm, dễ dàng kết hợp tham quan du lịch và thăm
+                                thân nhân tại các nước Châu Âu. Mình đi 2 line red và green, rất vui và không mệt. Hướng
+                                dẫn viên tiếng Việt nhiệt tình, thân thiện. Lịch trình đi hầu hết các điểm du lịch nổi
+                                tiếng của từng nước. Chúc Cty ngày càng có thêm nhiều khách biết đến và sử dụng dịch vụ,
+                                mở rộng đc thị trường du lịch Châu Âu cho du khách Việt...
+                            </div>
+                            <div class="feed--bottom disfex">
+                                <div class="feed--img">
+                                    <img src="https://etravel.exdomain.net/image/cache/catalog/banner/testimonial_1-250x250.jpg"
+                                        alt="Khách hàng">
+                                </div>
+                                <div class="feed--name pad15">
+                                    <div>Hoàng Hùng</div>
+                                    <div>12/10/2016</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="point point1">
+                        <div class="box box1 box2 box3" onclick="press1('box3','0',feed__item1,'3')"></div>
+                        <div class="box box1 box3" onclick="press1('box3','1',feed__item1,'3')"></div>
+                        <div class="box box1 box3" onclick="press1('box3','2',feed__item1,'3')"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="body--staff" class="hidden--center">
+                <div class="width1170 pad30-50">
+                    <h3 class="text--center head--title" style="color:#ffffff">
+                        Đội ngũ chuyên viên
+                    </h3>
+                    <div class="staff--item disfex" id="staff--item2">
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh1-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Phùng Huy
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Với gần 10 năm kinh nghiệm trong ngành du lịch và là người năng động, Huy đã đi
+                                        du lịch nhiều nơi trên thế giới.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh2-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Minh Ngọc
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Hơn 10 năm kinh nghiệm trực tiếp đón khách Việt Nam thăm quan, làm việc tại Pháp
+                                        và Châu Âu. Chị hiện là đại diện của ETravel Tours tại Pháp.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/nv3-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Thu Hương
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Sau 3 năm sinh sống và đón khách Việt Nam thăm quan Ý và Châu Âu, Đạt hiện là
+                                        đại diện của ETravel Tours tại Ý từ năm 2015
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/nv-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Phùng Trang
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Với hơn 10 năm kinh nghiệm trong lĩnh vực quản trị du lịch và lữ hành quốc tế,
+                                        Trang hiện là nhân viên tư vấn củaETravel Tours tại Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Hoàng Hùng
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Với hơn 20 năm kinh nghiệm làm lữ hành quốc tế, Hà hiện phụ trách mảng khách
+                                        hàng cao cấp và khách hàng VIP của Dế Việt.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh5-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Thu Huyền
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Với gần 3 năm kinh nghiệm trong ngành quản trị khách sạn và du lịch, Huyền hiện
+                                        là giám sát bộ phận chăm sóc khách hàng và chuyên gia trực tiếp xử lý các dịch
+                                        vụ visa châu Âu và quốc tế.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh1-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Phùng Huy
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Với gần 10 năm kinh nghiệm trong ngành du lịch và là người năng động, Huy đã đi
+                                        du lịch nhiều nơi trên thế giới.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh2-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Minh Ngọc
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Hơn 10 năm kinh nghiệm trực tiếp đón khách Việt Nam thăm quan, làm việc tại Pháp
+                                        và Châu Âu. Chị hiện là đại diện của ETravel Tours tại Pháp.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point point1">
+                        <div class="box box1 box2 box3 box4" onclick="press1('box4','0',staff__item1,'4')"></div>
+                        <div class="box box1 box3 box4" onclick="press1('box4','1',staff__item1,'4')"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="body--blog" class="hidden--center">
+                <div class="width1170 pad30-50" style="padding-bottom: 0;">
+                    <h3 class="text--center head--title" style="color: #333333;">Blog - Cẩm nang du lịch Châu Âu</h3>
+                    <div class="tour--container">
+                        <div class="tour--item">
+                            <a href="">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/news/DU_LICH_BUI_CHAU_A_NEN_DI_DAU_1-360x250.jpg"
+                                    alt="Du lịch bụi châu Á nên đi đâu?">
+                            </a>
+                            <a href="" class="text--center col337AB7">Du lịch bụi châu Á nên đi đâu?</a>
+                        </div>
+                        <div class="tour--item">
+                            <a href="">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/news/kinh-nghiem-xin-visa-du-lich-chau-au-1216201542340PM-360x250.jpg"
+                                    alt="Một số thủ tục cần thiết khi xin visa du lịch châu Âu">
+                            </a>
+                            <a href="" class="text--center col337AB7">Một số thủ tục cần thiết khi xin visa du lịch châu
+                                Âu</a>
+                        </div>
+                        <div class="tour--item">
+                            <a href="">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/news/washington-dc2-360x250.jpg"
+                                    alt="Các thủ tục cần thiết khi xin VISA Hoa Kỳ">
+                            </a>
+                            <a href="" class="text--center col337AB7">Các thủ tục cần thiết khi xin VISA Hoa Kỳ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="body--contact" class="hidden--center">
+                <div class="width1170">
+                    <div class="contact disfex">
+                        <div class="contact--left">
+                            <div class="contact--left--text">
+                                <div class="text--left1">
+                                    Đăng ký nhận tin
+                                </div>
+                                <p>
+                                    <i class="fa-solid fa-square-phone"></i>
+                                    0123 456 789
+                                </p>
+                                <p>
+                                    <i class="fa-regular fa-envelope"></i>
+                                    contact@yourdomain.com
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact--right">
+                            <div class="contact--form">
+                                <h3 class="head--title text--center head--form">
+                                    Để lại thông tin của bạn để được tư vấn từ ETravel Tours
+                                </h3>
+                                <br>
+                                <form action="">
+                                    <table cellspacing="12px">
+                                        <thead>
+                                            <tr>
+                                                <th>Tên</th>
+                                                <th>Email</th>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Tên">
+                                                </th>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Email">
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>Điện thoại</th>
+                                                <th>Nước bạn muốn đi</th>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Điện thoại">
+                                                </th>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Nước bạn muốn đi">
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>Số người</th>
+                                                <th>Ngày đi dự kiến</th>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Số người">
+                                                </th>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Ngày đi dự kiếni">
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>Ngày về dự kiến</th>
+                                                <th></th>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <input class="form--inp" required type="text" placeholder="Ngày về dự kiến">
+                                                </th>
+                                                <th></th>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <button class="btn1">Đăng ký</button>
+                                                </th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="travel__foot">
+            <div id="travel__foot--top" class="hidden--center">
+                <div class="container">
+                    <div class="foot--top container--item" style="padding-left: 4px;">
+                        <h3 class="foot--title">ETravel Tours</h3>
+                        <div class="foot--line">
+                            Chúng tôi hệ thống dịch vụ theo chuẩn chất lượng chung, đồng bộ, cam kết đưa đến cho khách
+                            hàng những sản phẩm du lịch chất lượng tốt với giá cạnh tranh. Với hơn 500 tour có trên
+                            Website, khởi hành ...
+                        </div>
+                    </div>
+                    <div class="foot--top container--item">
+                        <h3 class="foot--title">Liên hệ</h3>
+                        <div class="foot--line">
+                            <p>
+                                <i class="fa-solid fa-house"></i>
+                                <span><strong>Địa chỉ: </strong></span>
+                                <span>A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-phone"></i>
+                                <span><strong>Điện thoại: </strong></span>
+                                <span> 0123 456 789</span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span><strong>Email: </strong></span>
+                                <span> contact@yourdomain.com</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="link--foot">
+                        <a href="holine.html">Hồ sơ năng lực</a>
+                        <a href="holine.html">Chính sách</a>
+                        <a href="">Liên hệ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="travel__mess">
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </div>
+        <div id="travel__back">
+            <a href="#travel__body">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

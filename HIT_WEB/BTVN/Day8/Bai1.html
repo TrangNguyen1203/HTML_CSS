@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <style>
+        #main{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #form{
+            padding: 12px 24px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 16px 2px rgba(0 0 0/40%);
+        }
+        h1{
+            text-align: center;
+        }
+        th{
+            font-size: 20px;
+        }
+        input, button{
+            padding: 4px 8px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="form">
+            <table cellpadding="16px", cellspacing="12px">
+                <h1>Kiểm tra số nguyên tố</h1>
+                <tr>
+                    <th>Nhập số cần kiểm tra: </th>
+                    <th><input type="text" id="soKT"  size="28"></th>
+                </tr>
+                <tr>
+                    <th>Kết quả: </th>
+                    <th><input type="text" id="ketQua"  size="28"></th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <button onclick="xuLy()">Kiểm Tra</button>
+                        <button onclick="xoa()">Hủy</button>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        var a = document.getElementById("soKT");
+        var kq = document.getElementById("ketQua");
+        function xoa()
+        {
+            let x = confirm("Bạn có chắc chắn muốn hủy bỏ!");
+            if(x == 1)
+            {
+                a.value = "";
+                kq.value = "";
+            }
+        }
+        function xuLy()
+        {
+            if(a.value.trim() == "")
+            {
+                alert("Bạn chưa nhập số cần kiểm tra!");
+                return;
+            }
+            if(/^[\d]+$/.test(a.value.trim()) == false)
+            {
+                alert("Bạn nhập sai định dạng số của số cần kiểm tra!");
+                return;
+            }
+            let nt = Number(a.value);
+            if(isPrime(nt)) kq.value = "Đây là số nguyên tố";
+            else kq.value = "Đây không phải số nguyên tố!";
+        }
+        function isPrime(num)
+        {
+            if(num < 2) return false;
+            for(var i = 2; i <= Math.sqrt(num); i++)
+            {
+                if(num % i == 0) return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+
+</html>

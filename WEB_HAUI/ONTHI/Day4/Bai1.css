@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #0099FF;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header img{
+    height: 80px;
+}
+#header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 80px;
+}
+#header a:hover{
+    color:#FF3300;
+}
+.so1{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#header .so1 > img{
+    height: 32px;
+    margin: 0 4px;
+    width: 40px;
+}
+#header .so1 > span{
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+#header > div:last-child input{
+    border: 0;
+    outline: none;
+}
+#header > div:last-child{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+#menu{
+    background-color: #2F12BC;
+    height: 48px;
+}
+#menu > ul{
+    display: flex;
+    list-style: none;
+}
+#menu > ul > li{
+    width: 12.5%;
+    text-align: center;
+    position: relative;
+}
+#menu > ul > li > a{
+    font-size: 18px;
+    line-height: 48px;
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+}
+#menu > ul > li:hover > a{
+    background-color: #1295D5;
+    color:#FFFF33;
+}
+li.sub-menu ul{
+    list-style: none;
+    position: absolute;
+    top:48px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    display: none;
+}
+li.sub-menu ul li{
+    text-align: left !important;
+    text-indent: 8px;
+}
+li.sub-menu ul li a{
+    font-size: 18px;
+    line-height: 48px;
+    color:#000000;
+    text-decoration: none;
+    display: block;
+}
+li.sub-menu ul li:hover a
+{
+    background-color: #1295D5;
+    color:#FFFF33;
+}
+li.sub-menu:hover ul
+{
+    display: block;
+}
+#tren > div{
+    display: flex;
+}
+#tren > div >div{
+    margin-right: 40px;
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#tren h1{
+    background-color: #0099ff;
+    padding: 8px;
+    color: #ffffff;
+    text-indent: 20px;
+}
+#tren span{
+    font-size: 18px;
+}
+#tren select{
+    padding: 4px 8px;
+    font-size: 16px;
+}
+#duoi{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.item{
+    width: 31.33%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px rgba(0 0 0 /30%);
+    padding: 8px;
+    margin: 12px;
+    text-align: center;
+    line-height: 1.5;
+}
+.item img{
+    width: 100%;
+    height: 180px;
+}
+.item img:hover{
+    border: 2px solid #FF3300;
+}
+.item h3:hover{
+    color:#009933;
+}
+.item a{
+    color:red;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
