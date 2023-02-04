@@ -127,8 +127,9 @@
     }
 
     .item1{
-        width: 48% !important;
+        width:100% !important;
     }
+    
     .list10 {
         width: 97vw !important; 
         display: block !important;
@@ -166,9 +167,3 @@
     }
 }
 
-@media only screen and (max-width: 480px)
-{
-    .item1{
-        width: 100% !important;
-    }
-}
