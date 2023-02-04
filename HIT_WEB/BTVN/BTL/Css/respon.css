@@ -75,6 +75,12 @@
     .container5 .category5 {
         width: 100% !important;
     }
+    .img-header3 img{
+        margin: 0 !important;
+    }
+    .img-content > img{
+        margin-top: 0 !important;
+    }
     /* footer */
 
     .end .end-container {
@@ -133,9 +139,16 @@
         width: 100% !important;
     }
 
+    .img-header3 img{
+        margin-top: 0 !important;
+    }
+
     .item-img10,
     .item-img10 {
         width: 100% !important;
+    }
+    .img-content > img{
+        margin-top: 0 !important;
     }
 
     /*-------------footer----------*/
