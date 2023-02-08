@@ -81,6 +81,9 @@
     .img-content > img{
         margin-top: 0 !important;
     }
+    .main10, .main5,.main13{
+        margin-top: 0 !important;
+    }
     /* footer */
 
     .end .end-container {
@@ -129,7 +132,7 @@
     .item1{
         width:100% !important;
     }
-    
+
     .list10 {
         width: 97vw !important; 
         display: block !important;
@@ -143,13 +146,21 @@
     .img-header3 img{
         margin-top: 0 !important;
     }
-
-    .item-img10,
     .item-img10 {
         width: 100% !important;
     }
     .img-content > img{
         margin-top: 0 !important;
+    }
+    .video--tour{
+        display: none !important;
+    }
+    .order {
+        display: block !important;
+    }
+
+    .order-img {
+        width: 100% !important; 
     }
 
     /*-------------footer----------*/

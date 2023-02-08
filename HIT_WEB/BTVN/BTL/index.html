@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://zozo.vn/public/theme/touched/images/logo/favicon.png" type="image/x-icon">
     <title>TRAVEL AGENCY</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,11 +41,9 @@
             <ul class="menu">
                 <li><a href="index.html">Trang chủ</a></li>
                 <li><a href="VE_ETRAVEL_TOURS.html">Về ETravel Tours</a></li>
-                <li><a
-                        href="Tour-Chau-A.html">Tour
+                <li><a href="Tour-Chau-A.html">Tour
                         Châu Á</a></li>
-                <li><a
-                        href="Tour-Chau-Au.html">Tour
+                <li><a href="Tour-Chau-Au.html">Tour
                         Châu Âu</a></li>
                 <li><a href="TourChauMy.html">Tour Châu Mỹ</a></li>
                 <li><a href="camNang.html">Cẩm nang du lịch</a></li>
@@ -66,11 +65,9 @@
             <ul id="drop-menu" class="menu-new">
                 <li><a href="index.html">Trang chủ</a></li>
                 <li><a href="VE_ETRAVEL_TOURS.html">Về ETravel Tours</a></li>
-                <li><a
-                        href="Tour-Chau-A.html">Tour
+                <li><a href="Tour-Chau-A.html">Tour
                         Châu Á</a></li>
-                <li><a
-                        href="Tour-Chau-Au.html">Tour
+                <li><a href="Tour-Chau-Au.html">Tour
                         Châu Âu</a></li>
                 <li><a href="TourChauMy.html">Tour Châu Mỹ</a></li>
                 <li><a href="camNang.html">Cẩm nang du lịch</a></li>
@@ -84,12 +81,10 @@
         <div class="body--img">
             <div class="owl-carousel owl-theme img-slider">
                 <div class="item">
-                    <img src="./img/bia1.jpg"
-                        alt="img-slider">
+                    <img src="./img/bia1.jpg" alt="img-slider">
                 </div>
                 <div class="item">
-                    <img src="./img/bia2.jpg"
-                        alt="img-slider">
+                    <img src="./img/bia2.jpg" alt="img-slider">
                 </div>
             </div>
         </div>
@@ -97,26 +92,50 @@
             <h3 class="text--center head--title" style="color: #333333;">Dịch vụ tốt nhất của ETravel Tours</h3>
             <div class="container1">
                 <div class="disfex">
-                    <div class="tour--item1 width__flex--item">
-                        <a href="">
-                            <img src="./img/chauau.jpg"
-                                alt="Tour Châu Âu">
-                        </a>
+                    <div class="tour--item1 width__flex--item" onclick="display('video__tour--chauAu')">
+                        <img src="./img/chauau.jpg" alt="Tour Châu Âu">
                         <a href="" class="text--center">Tour Châu Âu</a>
                     </div>
-                    <div class="tour--item1 width__flex--item">
-                        <a href="">
-                            <img src="./img/chaua.jpg"
-                                alt="Tour Châu Á">
-                        </a>
+                    <div id="video__tour--chauAu" class="video--tour">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/he-aCCA2ONI?controls=0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div onclick="closeVideo('video__tour--chauAu')">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour--item1 width__flex--item" onclick="display('video__tour--chauA')">
+                        <img src="./img/chaua.jpg" alt="Tour Châu Á">
                         <a href="" class="text--center">Tour Châu Á</a>
                     </div>
-                    <div class="tour--item1 width__flex--item">
-                        <a href="">
-                            <img src="./img/passport2.jpg"
-                                alt="Tour Châu Mỹ">
-                        </a>
+                    <div id="video__tour--chauA" class="video--tour">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UyugQsVsf64?controls=0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div onclick="closeVideo('video__tour--chauA')">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour--item1 width__flex--item" onclick="display('video__tour--chauMy')">
+                        <img src="./img/passport2.jpg" alt="Tour Châu Mỹ">
                         <a href="" class="text--center">Tour Châu Mỹ</a>
+                    </div>
+                    <div id="video__tour--chauMy" class="video--tour">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/-NaSNzGuPwM?controls=0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div onclick="closeVideo('video__tour--chauMy')">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,7 +151,7 @@
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-phap-y-thuy-si-500x400.jpg"
                                 alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -150,10 +169,9 @@
                     </div>
                     <div class="item">
                         <div class="item--img">
-                            <img src="./img/cuba.jpg"
-                                alt="">
+                            <img src="./img/cuba.jpg" alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -171,10 +189,9 @@
                     </div>
                     <div class="item">
                         <div class="item--img">
-                            <img src="./img/my.jpg"
-                                alt="">
+                            <img src="./img/my.jpg" alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -194,7 +211,7 @@
                         <div class="item--img">
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/kaohug3-500x400.jpg" alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -214,7 +231,7 @@
                         <div class="item--img">
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/duc2-500x400.jpg" alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -235,7 +252,7 @@
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/ottawai-photo-500x400.jpg"
                                 alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -256,7 +273,7 @@
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/1d_1514539618-500x400.jpg"
                                 alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -277,7 +294,7 @@
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/037930965069-500x400.jpg"
                                 alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -298,7 +315,7 @@
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-phap-y-thuy-si-500x400.jpg"
                                 alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -318,7 +335,7 @@
                         <div class="item--img">
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/bruges-500x400.png" alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -339,7 +356,7 @@
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/du-lich-lien-tuyen-chau-my-kham-pha-dat-nuoc-cuba-co-kinh-220201740203PM-500x400.jpg"
                                 alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -359,7 +376,7 @@
                         <div class="item--img">
                             <img src="https://etravel.exdomain.net/image/cache/catalog/news/kaohug3-500x400.jpg" alt="">
                             <div class="item--title">
-                                <a href="">Xem</a>
+                                <a href="mo_rong.html">Xem</a>
                             </div>
                         </div>
                         <div class="item--text">
@@ -699,6 +716,25 @@
                     <div class="item">
                         <div class="staff--item1">
                             <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh1-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Phùng Huy
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Với gần 10 năm kinh nghiệm trong ngành du lịch và là người năng động, Huy đã đi
+                                        du lịch nhiều nơi trên thế giới.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="staff--item1">
+                            <div class="staff--img">
                                 <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh-300x300.jpg"
                                     alt="Hình ảnh nhân viên">
                             </div>
@@ -710,6 +746,25 @@
                                     <p>
                                         Với hơn 20 năm kinh nghiệm làm lữ hành quốc tế, Hà hiện phụ trách mảng khách
                                         hàng cao cấp và khách hàng VIP của Dế Việt.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="staff--item1">
+                            <div class="staff--img">
+                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh2-300x300.jpg"
+                                    alt="Hình ảnh nhân viên">
+                            </div>
+                            <div class="staff--info">
+                                <div class="staff-name text--center">
+                                    Minh Ngọc
+                                </div>
+                                <div class="staff--job text--center">
+                                    <p>
+                                        Hơn 10 năm kinh nghiệm trực tiếp đón khách Việt Nam thăm quan, làm việc tại Pháp
+                                        và Châu Âu. Chị hiện là đại diện của ETravel Tours tại Pháp.
                                     </p>
                                 </div>
                             </div>
@@ -735,44 +790,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="staff--item1">
-                            <div class="staff--img">
-                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh1-300x300.jpg"
-                                    alt="Hình ảnh nhân viên">
-                            </div>
-                            <div class="staff--info">
-                                <div class="staff-name text--center">
-                                    Phùng Huy
-                                </div>
-                                <div class="staff--job text--center">
-                                    <p>
-                                        Với gần 10 năm kinh nghiệm trong ngành du lịch và là người năng động, Huy đã đi
-                                        du lịch nhiều nơi trên thế giới.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="staff--item1">
-                            <div class="staff--img">
-                                <img src="https://etravel.exdomain.net/image/cache/catalog/banner/kh2-300x300.jpg"
-                                    alt="Hình ảnh nhân viên">
-                            </div>
-                            <div class="staff--info">
-                                <div class="staff-name text--center">
-                                    Minh Ngọc
-                                </div>
-                                <div class="staff--job text--center">
-                                    <p>
-                                        Hơn 10 năm kinh nghiệm trực tiếp đón khách Việt Nam thăm quan, làm việc tại Pháp
-                                        và Châu Âu. Chị hiện là đại diện của ETravel Tours tại Pháp.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -780,27 +797,54 @@
             <h3 class="text--center head--title" style="color: #333333;">Blog - Cẩm nang du lịch Châu Âu</h3>
             <div class="container1">
                 <div class="disfex">
-                    <div class="tour--item1 width__flex--item">
-                        <a href="">
-                            <img src="https://etravel.exdomain.net/image/cache/catalog/news/DU_LICH_BUI_CHAU_A_NEN_DI_DAU_1-360x250.jpg"
-                                alt="Du lịch bụi châu Á nên đi đâu?">
-                        </a>
+                    <div class="tour--item1 width__flex--item" onclick="display('video__tour--chauA1')">
+                        <img src="https://etravel.exdomain.net/image/cache/catalog/news/DU_LICH_BUI_CHAU_A_NEN_DI_DAU_1-360x250.jpg"
+                            alt="Du lịch bụi châu Á nên đi đâu?">
                         <a href="" class="text--center col337AB7">Du lịch bụi châu Á nên đi đâu?</a>
                     </div>
-                    <div class="tour--item1 width__flex--item">
-                        <a href="">
-                            <img src="https://etravel.exdomain.net/image/cache/catalog/news/kinh-nghiem-xin-visa-du-lich-chau-au-1216201542340PM-360x250.jpg"
-                                alt="Một số thủ tục cần thiết khi xin visa du lịch châu Âu">
-                        </a>
+                    <div id="video__tour--chauA1" class="video--tour">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UyugQsVsf64?controls=0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div onclick="closeVideo('video__tour--chauA1')">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour--item1 width__flex--item" onclick="display('video__tour--visaChauAu')">
+                        <img src="https://etravel.exdomain.net/image/cache/catalog/news/kinh-nghiem-xin-visa-du-lich-chau-au-1216201542340PM-360x250.jpg"
+                            alt="Một số thủ tục cần thiết khi xin visa du lịch châu Âu">
                         <a href="" class="text--center col337AB7">Một số thủ tục cần thiết khi xin visa du lịch châu
                             Âu</a>
                     </div>
-                    <div class="tour--item1 width__flex--item">
-                        <a href="">
-                            <img src="https://etravel.exdomain.net/image/cache/catalog/news/washington-dc2-360x250.jpg"
-                                alt="Các thủ tục cần thiết khi xin VISA Hoa Kỳ">
-                        </a>
+                    <div id="video__tour--visaChauAu" class="video--tour">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/b-APPjp8cDw"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div onclick="closeVideo('video__tour--visaChauAu')">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour--item1 width__flex--item" onclick="display('video__tour--visaHoaKy')">
+                        <img src="https://etravel.exdomain.net/image/cache/catalog/news/washington-dc2-360x250.jpg"
+                            alt="Các thủ tục cần thiết khi xin VISA Hoa Kỳ">
                         <a href="" class="text--center col337AB7">Các thủ tục cần thiết khi xin VISA Hoa Kỳ</a>
+                    </div>
+                    <div id="video__tour--visaHoaKy" class="video--tour">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pWByK38mqbM?controls=0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div onclick="closeVideo('video__tour--visaHoaKy')">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -902,7 +946,14 @@
             </div>
         </div>
     </div>
-
+    <div id="travel__mess">
+        <i class="fa-brands fa-facebook-messenger"></i>
+    </div>
+    <div id="travel__back">
+        <a href="">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
