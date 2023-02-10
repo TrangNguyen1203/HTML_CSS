@@ -133,3 +133,10 @@ function display(idName)
     let id = document.getElementById(idName);
     id.style.display = "flex";
 };
+
+const body1 = document.body;
+const mode1 = document.querySelector("#logo");
+mode1.addEventListener('click', () =>{
+    // alert("Bạn là ai?")
+    body1.classList.toggle('dark')
+})
