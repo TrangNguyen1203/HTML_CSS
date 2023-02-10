@@ -165,9 +165,10 @@
     right: 0;
     display: none;
     text-align: center;
-    padding-top: 40%;
     border-radius: 8px 8px 0 0;
     transition: all 0.6s linear;
+    justify-content: center;
+    align-items: center;
 }
 
 .item--title a {
@@ -183,7 +184,7 @@
 
 
 .item--img:hover>.item--title {
-    display: block;
+    display: flex;
 }
 
 .item--text {
@@ -1095,4 +1096,7 @@ label {
     border-color: #eee #eee #ddd;
     background-color: #eee;
     color: #000 !important;
+}
+.dark h3.head--form{
+    color: #18A7F5 !important;
 }
